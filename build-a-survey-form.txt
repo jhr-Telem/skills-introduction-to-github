@@ -1,0 +1,63 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Ánimes populares</title>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, inicial-scale=1.0">
+<body>
+  <h1 id="title">¿Qué Ánimes te Gustan Más?</h1>
+  <p id=description>Los ánimes que adoras.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Nombre: <input id="name"class="primero" type="text" placeholder="Pon tu nombre"required></label>
+    <label id="email-label">Email: <input id="email" type="email"class="primero" placeholder="Pon tu correo"required>
+    <label id="number-label"class="segundo">¿Qué edad tienes? <input id="number" type="number" min="13" max="125" placeholder="Elige tu edad">
+    </fieldset>
+    <fieldset>
+      <leyend>¿Cual es tu tipo nya?</leyend>
+      <label id="tipo"><input name="tipo"type="radio"value="Vieja">Vieja escuela</label>
+      <label id="tipo"><input name="tipo" type="radio"value="moderna">Escuela moderna</label>
+      <label class="seleccion">¡Selecciona tu ánime!</label> 
+      <select id="dropdown">
+        <option value="">Selecciona uno</option>
+        <option value="1">Haruhi Suzumiya</option>
+        <option value="2">Monster</option>
+        <option value="3">Genshiken</option>
+        <option value="4">Haibane Renmei</option>
+      </select>
+      <label id="preferencias"><input type="checkbox"value="a"> ¿Te gusta el shonen?</label>
+      <label id="preferencias"><input type="checkbox"value="b">¡El yuri conquistará el mundo!</label>
+      <label id="preferencias"><input type="checkbox"value="c">Los veo por la "trama" @_@.</label>
+      <label id="preferencias"><input type="checkbox"value="d">Terror y misterio.</label>
+    </fieldset>
+    <fieldset>
+      <label id="Info">¿Como te hiciste fan? <textarea placeholder="¡Se vale emocionarse!"></textarea></label>
+    </fieldset>
+    <input id="submit"type="submit">
+</form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{width:100%;height:100vh;margin:0;background-image:url(https://i.imgur.com/bqFfbPs.jpg?1);background-color:rgb(240 230 230);background-repeat:no-repeat;background-position:30%;
+background-size:cover}
+#title{color:purple; margin-top:2rem; text-align:center;}
+#description{font-size:22px; text-align:center;font-style:italic;}
+label {display: block;margin:1rem 0;}
+.primero{min-width:50%}
+number radio{width:unset}
+leyend{color:magenta;font-weight:bold;}
+.seleccion{text-align:center}
+select{text-align:center;width:30%;margin-left:35%;margin-right: 35%}
+#Info{color:red;font-weight:bold}
+textarea{width:95%;background-color:rgba(0,220,125,0.5);font-weight:bold;font-size:14px}
+#submit{display:block;margin:1rem auto;font-size:15px;}
+
+** end of undefined **
+
